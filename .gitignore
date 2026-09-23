@@ -1,0 +1,33 @@
+# Data
+data/
+*.gz
+*.tar
+*.zip
+
+# Python & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model checkpoints & weights
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Logs & temp files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
