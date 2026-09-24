@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "keep_eight": 0.09,
+  "epochs": 8,
+  "device": "cuda",
+  "target_epsilon": 3.0,
+  "target_delta": 1e-06,
+  "achieved_epsilon": 2.9909,
+  "achieved_delta": 1e-06,
+  "clipping_threshold_C": 1.0,
+  "noise_multiplier_sigma": 0.6635,
+  "privacy_accountant": "prv",
+  "lr": 0.1,
+  "momentum": 0.9,
+  "batch_size": 128,
+  "accuracy_by_digit": [0.974, 0.983, 0.929, 0.951, 0.954, 0.915, 0.959, 0.934, 0.627, 0.885],
+  "loss_by_digit": [0.183, 0.138, 0.624, 0.355, 0.256, 0.518, 0.290, 0.650, 3.471, 0.866],
+  "overall_accuracy": 0.913,
+  "privacy_cost_by_digit": [0.022, 0.013, 0.063, 0.040, 0.039, 0.078, 0.024, 0.054, 0.282, 0.093]
+}
