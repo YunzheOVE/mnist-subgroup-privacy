@@ -69,4 +69,9 @@ Results are printed to the console and automatically saved to `phase1_results.js
 
 ### Notes Log
 * **Baseline Setup:** Phase 1 uses standard cross-entropy loss without class weighting to observe natural minority class decay.
-* *[Add additional observations here]*
+* **Run 001 Baseline (9% keep-eight, 8 epochs, seed 42):**
+  * Overall Test Accuracy: **98.2%**
+  * `Test accuracy by digit:` `['99.7%', '99.6%', '99.2%', '99.1%', '99.3%', '99.3%', '98.3%', '98.8%', '91.0%', '97.8%']`
+  * `Test loss by digit:` `['0.014', '0.013', '0.016', '0.017', '0.012', '0.021', '0.057', '0.037', '0.372', '0.083']`
+  * Minority digit 8 (504 training samples) scored 91.0% accuracy with an elevated loss of 0.372 (vs ~0.016 for digit 2). Full metrics logged in `experiment_log.md` and `phase1_results.json`.
+
